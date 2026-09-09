@@ -1,0 +1,13 @@
+void hrsrem();
+void main()
+{
+	hrsrem();	
+}
+hrsrem()
+{
+	int min=122;
+	int hrs=min/60;
+	int rem=min%60;
+	printf("The hrs is %d\n", hrs);
+	printf("The rem is %d",rem);
+}
