@@ -17,11 +17,5 @@ void main()
 			printf("The number is not palindrome");
 		}
     }
-	else
-    {
-        printf("Please enter a 3-digit number.");
-    }
-
-    return 0;
 	
 }
