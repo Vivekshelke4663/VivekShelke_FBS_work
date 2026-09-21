@@ -1,0 +1,62 @@
+Name : Vivek Shelke
+FRN-16J0726/035
+batch: July
+
+Q2
+void main()
+{
+    char str[100], ch, symbol;
+    int i;
+
+    printf("Enter string: ");
+    scanf("%s", str);
+
+    printf("Enter character: ");
+    scanf(" %c", &ch);
+
+    printf("Enter special symbol: ");
+    scanf(" %c", &symbol);
+
+    for(i = 0; str[i] != '\0'; i++)
+    {
+        if(str[i] == ch)
+            str[i] = symbol;
+    }
+
+    printf("New string = %s", str);
+
+}
+
+
+Q1
+
+void main()
+{
+    int i, j, flag, n, sum = 0;
+
+    printf("Enter the number: ");
+    scanf("%d", &n);
+    for(i = 1; i <= n; i++)
+    {
+        flag = 0;
+        for(j = 2; j < i; j++)
+        {
+            if(i % j == 0)
+            {
+                flag = 1;
+                break;
+            }
+        }
+        if(i < 2)
+        {
+            flag = 1;
+        }
+
+        if(flag == 0)
+        {
+            printf("%d ", i);
+            sum = sum + i;
+        }
+    }
+   printf("\nSum = %d", sum);
+}
