@@ -1,6 +1,7 @@
 Name : Vivek Shelke
 FRN-16J0726/035
-batch: July
+batch: July (offline) 
+Set A
 
 Q2
 void main()
